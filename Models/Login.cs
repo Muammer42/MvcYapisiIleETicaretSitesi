@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace Emlak.Models
+namespace OrnekProje.Models
 {
     public class Login
     {
@@ -13,8 +13,10 @@ namespace Emlak.Models
         [DisplayName("Kullanıcı Adı")]
         public string Username { get; set; }
         [Required]
+        
         [DisplayName("Şifre")]
         public string Password { get; set; }
         public bool RememberMe { get; set; }
+
     }
 }

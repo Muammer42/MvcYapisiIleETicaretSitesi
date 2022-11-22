@@ -1,5 +1,5 @@
-﻿using Emlak.Identıty;
-using Emlak.Models;
+﻿using OrnekProje.Entity;
+using OrnekProje.Identity;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Emlak
+namespace OrnekProje
 {
     public class MvcApplication : System.Web.HttpApplication
     {
